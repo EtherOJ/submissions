@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: EtherOJ/EtherJudger@master
+    - uses: EtherOJ/EtherJudger@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
